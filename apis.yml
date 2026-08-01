@@ -1,8 +1,23 @@
 aid: rupifi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rupifi.png
 name: Rupifi
-description: 'Rupifi is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Rupifi is an India-based B2B payments and embedded-credit fintech that lets marketplaces,
+  distributors, and brands offer their SME and retailer buyers a line of credit and Buy Now, Pay Later
+  (BNPL) at checkout, with flexible 15/30/45/60/90-day repayment terms. Its platform connects three parties
+  — anchors (brands/platforms), merchants (borrowers/retailers), and lenders — through digital onboarding,
+  real-time credit assessment, and embedded B2B checkout. Products include B2B Credit (line of credit)
+  and B2B Checkout, integrated by partners via the Rupifi developer portal and BNPL API.'
 url: https://raw.githubusercontent.com/api-evangelist/rupifi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- BNPL
+- Embedded Finance
+- B2B Payments
+- Lending
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.rupifi.com/
+- type: DeveloperPortal
+  url: https://developers.rupifi.com/
+- type: Documentation
+  url: https://developers.rupifi.com/bnpl/api
+- type: APIReference
+  url: https://developers.rupifi.com/api
+- type: Webhooks
+  url: https://developers.rupifi.com/webhooks/Lead-Webhook
+- type: Login
+  url: https://app.rupifi.com/
+- type: Support
+  url: https://www.rupifi.com/contact
+- type: TermsOfService
+  url: https://www.rupifi.com/terms
+- type: PrivacyPolicy
+  url: https://www.rupifi.com/privacy
+- type: DomainSecurity
+  url: security/rupifi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
